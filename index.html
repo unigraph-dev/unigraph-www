@@ -40,6 +40,25 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <!--custom css end-->
 
+<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["disableCookies"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://searx.jingyixu.me/";
+      _paq.push(['setTrackerUrl', u+'js/']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo_.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+  
+  
+
 </head>
 
 <body>
@@ -56,6 +75,7 @@
                     </a>
                     <div class="action-btns text-end">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmS1BUZNF6wprSGU08XpCcM-UWh5BEMwuQ8gweBGIH7SSD8w/viewform?usp=sf_link" class="btn btn-inline btn-outline-secondary">Join the waiting list</a>
+                        <li class="list-inline-item"><a href="https://twitter.com/thesophiaxu"><i class="fab fa-twitter"></i></a></li>
                         <a href="https://github.com/unigraph-dev/unigraph-dev"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
@@ -319,6 +339,7 @@
                         <div class="col-md-7 col-lg-7">
                             <div class="copyright-text">
                                 <p class="mb-lg-0 mb-md-0">Built with ⌨️ & ❤️ by <a href="https://linktr.ee/thesophiaxu">Sophia Xu</a>. Theme by <a href="https://themetags.com/" class="text-decoration-none">ThemeTags</a></p>
+                                <p>This site uses matomo, an ethical self-hosted analytics tool. Your browsing data is anonymized and never shared. </p>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
